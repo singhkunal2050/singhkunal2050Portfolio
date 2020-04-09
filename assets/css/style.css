@@ -139,6 +139,28 @@ header{
 
 
 
+.ptitle{
+	font-size: 2rem;
+	padding: 1.5rem;
+	display: none;
+	border: 1px #15597e solid;
+	background: rgb(27, 31, 37);
+	transition: ease-in .5s;
+	z-index: 0;
+	text-align: center;
+}
+
+.ptitle a{
+	color:rgb(214, 214, 214);
+	margin-top: 5rem;
+	border:none;
+}
+
+.ptitle a:hover , .ptitle:hover{
+	color: rgb(255, 247, 247);
+	background: rgb(4, 10, 20);
+}
+
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  03 - Navigation 
@@ -710,6 +732,7 @@ footer {
 		text-align: center;
 	}
 
+
 }
 @media all and (max-width: 380px) {
 	
@@ -740,8 +763,8 @@ footer {
 	.calltoaction{
 		padding: 5%;
 	}
-
 	
+
 }
 
 @media all and (max-width: 480px) {
@@ -750,4 +773,14 @@ footer {
 		top: 70%;
 		left: 44%;
 	}
+
+	
+}
+
+@media all and (max-width: 415px) {
+
+	.ptitle{
+		display:block;
+	}
+
 }
