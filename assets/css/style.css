@@ -526,9 +526,10 @@ header{
 /*Social media links*/
 
 #social {
-	background-color: rgba(0, 0, 0, 0.75) !important;
+	background-color: rgba(10, 10, 10, 0.95) !important;
 	padding: 30px 0px 30px 0px;
 	position: relative;
+	border-top: #B5B5B5 1px solid;
 }
 .normal-txt {
 	color: #fff;
@@ -565,16 +566,22 @@ header{
 .twitter{
 	background-image: url(../images/twitter.png);
 }
+.github{
+	background-image: url(../images/github.png);
+}
+.insta{
+	background-image: url(../images/insta.png);
+}
+
 .google-plus{
 	background-image: url(../images/google-plus.png);
 }
 .linkedin{
 	background-image: url(../images/linkedin.png);
 }
-.wordpress{
-	background-image: url(../images/wordpress.png);
+.youtube{
+	background-image: url(../images/youtube.png);
 }
-
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  08 - Footer 
