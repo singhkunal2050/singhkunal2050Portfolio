@@ -62,6 +62,8 @@ a:hover,a:active,a:focus{
 }
 .btn:hover {
 	background: #fff;
+	background: "orange";
+	
 	color: #000;
 }
 .block_title {
