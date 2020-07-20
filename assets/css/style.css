@@ -55,6 +55,7 @@ a:hover,a:active,a:focus{
 .btn {
 	color: #fff;
 	background: transparent;
+	background: "orange";
 	border: 1px solid #fff;
 	border-radius: 0px;
 	font-size: 1.2em;
