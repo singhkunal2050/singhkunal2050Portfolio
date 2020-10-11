@@ -350,6 +350,34 @@
                 </div><!-- container -->
             </section><!-- testimonial -->
             
+            <div class="jumbotron" style="margin-bottom: 0 !important;" >
+                <div class="block_title">Contact Me</div>
+
+                <script type="text/javascript">var submitted=false;</script>
+                <script>
+                    function submitform(){
+                        swal("Form Submitted!", "Will reach out soon :) ");
+
+                        document.getElementById('form1').reset();
+                    }
+                </script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  { submitform() }"></iframe>
+
+                <div class="center contact-form"  >
+                    <form id='form1' action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd2lY21Z-8TL88KgA1NFoLeL4C1SZiatPLnAOlN6IvoXtSNWg/formResponse"
+                    method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <input class="form-input" type="text" placeholder="name" name="entry.1366873136"  required>
+                        <input class="form-input" type="text"  placeholder="email" name="entry.1954686353"  required>
+                        <textarea class="form-input text-area" name="entry.1936327169" placeholder="message"  required></textarea>
+                        <!-- <input class="form-input text-area" type="text"  placeholder="message" name="3"> -->
+                        <button class="form-input submit" type="submit">Send</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+
             <section id="contact">
                 <div id="social">
                     <div class="container">
@@ -392,7 +420,8 @@
             <script src="assets/js/script.js"></script>
             <!-- for linkedin batch  -->
             <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-            
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
         </body>
         </html>
         
