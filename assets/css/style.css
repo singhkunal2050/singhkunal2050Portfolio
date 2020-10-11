@@ -103,11 +103,12 @@ header{
 
 .calltoaction{
 	color:black ;
-	margin-top: 2%;
-	padding: 2%;
+	margin-top: 10px;
+	padding: 10px 20px;
 	background: cadetblue;
-	border: 1px #347092 solid;
-	border-radius: 8%;
+	border: none;
+	border-radius: 24px;
+	box-shadow: 4px 4px 0 #15597e;
 	font-weight: 600;
 	font-size: medium;
 }
