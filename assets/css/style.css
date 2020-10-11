@@ -154,7 +154,7 @@ header{
 .nav-wrap {
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 	z-index: 9999;
 }
 
@@ -835,4 +835,9 @@ footer {
 	.form-input{
 		min-width: 90%;
 	}
+}
+
+.navbar-container{
+	/* background: red !important; */
+	width: 100vw;
 }
