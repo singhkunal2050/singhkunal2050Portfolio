@@ -405,17 +405,21 @@ header{
 }
 
 /* image hover feats */
+@media(min-width:700px){
+	.myimg:hover{
+		border:  1px solid rgb(32, 90, 138);
+		scale: transform(1.5);
+	}
 
-.myimg:hover{
-	border:  1px solid rgb(32, 90, 138);
-	scale: transform(1.5);
+	.zoom:hover{
+		transition: transform .4s;
+		transform: scale(1.5);
+		z-index: 1;
+	}
+	
+
 }
 
-.zoom:hover{
-	transition: transform .4s;
-	transform: scale(1.5);
-	z-index: 1;
-}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  06 - Testimonial 
@@ -759,4 +763,29 @@ footer {
 		display:block;
 	}
 
+}
+
+
+/* for linkedin batch  */
+
+.card-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+@media(min-width:700px){
+	.card-box .para{
+		flex: .4;
+	}
+}
+
+.card-box .para{
+	margin: 20px;
+}
+
+
+.card-box .para h1{
+	color: #111 !important;
 }
