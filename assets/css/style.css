@@ -3,7 +3,6 @@
 	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
 }
 
-
 html, body {
 	height:100%;
 }
@@ -161,7 +160,7 @@ header{
 .logo-text {
 	font-size: 3em;
 	padding: 0.2em 0;
-	color: "cyan";
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	display: table-cell;
