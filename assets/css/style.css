@@ -113,6 +113,11 @@ header{
 	font-size: medium;
 }
 
+@media(max-width:400px){
+	.intro{
+		margin: 20px;
+	}
+}
 
 
 .ptitle{
